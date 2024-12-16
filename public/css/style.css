@@ -9,28 +9,28 @@
     word-spacing: 0.5rem;
 }
 
-body{
+body {
     background-color: #232812;
 }
 
 
-header{
+header {
     display: flex;
     justify-content: space-between;
-    margin: 1rem 7rem;
+    margin: 1rem 10rem;
     align-items: center;
     border-bottom: solid;
     padding: 2rem 0;
 }
 
-.logo{
+.logo {
     display: flex;
     justify-content: center;
     align-items: self-end;
     gap: 1rem;
 }
 
-header button{
+header button {
     background-color: #232812;
     border-color: #fff;
     height: 3rem;
@@ -38,38 +38,42 @@ header button{
     border-radius: 45px;
 }
 
-.hero{
+.hero {
     border-bottom: solid;
-    margin: 1rem 7rem;
+    margin: 1rem 10rem;
     padding: 2rem 0;
     
 }
 
-.hero-top-container{
+.hero-top-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
-.hero h1{
+.hero h1 {
     font-size: 4rem;
 }
 
-.hero p{
-    font-size: 1rem;
+.hero p {
+    font-size: 1.2rem;
 }
 
-.hero img{
+.hero img {
     width: 100%;
     padding: 2rem 0;
+    
 }
 
 
 
-.service{
-    margin: 1rem 7rem;
+.service {
+    margin: 1rem 10rem;
     display: flex;
     justify-content: space-between;
+    border-bottom: solid;
+    padding: 2rem 0 ;
 }
 
 
@@ -81,22 +85,163 @@ header button{
     align-items: center;
   }
 
-.service-datails{
+.service-datails {
     border-left: solid;
     margin: 2rem 0;
     padding: 0 1rem;
 }
 
-.service-datails h1{
+.service-datails h1 {
     padding: 0 0 2rem 0;
     font-weight: bold;
     font-size: 2rem;
 }
 
-.service-container button{
+.service-container button {
     background-color: #232812;
     border-color: #fff;
     height: 3rem;
     width: 17rem;
     border-radius: 45px;
+}
+
+.portfolio{
+    margin: 1rem 10rem;
+    border-bottom: solid;
+}
+
+.portfolio-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    
+}
+
+
+
+.portfolio-container {
+    position: relative;
+    left: 5rem;
+}
+
+.portfolio-top-container {
+    position: relative;
+    left: 1rem;
+}
+
+
+.portfolio-top-container h1 {
+    font-size: 4rem;
+    position: relative;
+}
+
+.portfolio-top-container p {
+    font-size: 1.2rem;
+}
+
+.portfolio-bottom-container {
+    display: flex;
+    padding: 3rem 0;
+}
+
+.portfolio-details {
+    border-left: solid;
+    margin: 0 1rem;
+    padding: 0 1rem;
+    
+}
+
+
+
+.portfolio-bottom-container h1 {
+    font-size: 1.5;
+    padding: 1rem 0 ;
+}
+
+.portfolio-bottom-container p {
+    font-size:1rem ;
+}
+
+
+
+
+
+.slider-wrapper .image-list {
+    display: grid;
+    overflow-x: auto;
+    margin-bottom: 2rem;
+    gap: 1rem;
+    scrollbar-width: none;
+    grid-template-columns: repeat(8, 1fr);
+   
+    
+}
+
+.slider-wrapper .image-list::-webkit-scrollbar {
+    display: none;
+}
+
+.slider-wrapper .image-list .image-item {
+    width: 24rem;
+    height: 12rem;
+    object-fit: cover;
+}
+
+.portfolio-img .slider-scrollbar {
+    height: 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.slider-scrollbar .scrollbar-track {
+    height: 2px;
+    width: 100%;
+    background-color: #ccc;
+    position: relative;
+}
+
+.slider-scrollbar:hover .scrollbar-track {
+    height: 4px;
+}
+
+.slider-scrollbar .scrollbar-thumb {
+    position:absolute;
+    height: 100%;
+    width: 50%;
+    background-color: #000;
+    cursor: grab;
+}
+
+.slider-scrollbar .scrollbar-thumb:active {
+    cursor: grabbing;
+    height: 8px;
+    top: -2px;
+}
+
+.slider-scrollbar .scrollbar-thumb::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -10px;
+    bottom: -10px;
+}
+
+
+
+
+.portfolio h2{
+    position: relative;
+    left: 18rem;   
+    font-size: 1.3rem;
+    padding: 3rem 1rem;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+    gap: 0 2rem;
 }
