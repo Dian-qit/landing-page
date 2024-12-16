@@ -1,5 +1,7 @@
 # Renew Home Landing Page  
 
+[Visit the Website](https://renew-home.onrender.com/)  
+
 ## Introduction  
 **Renew Home** is a landing page I created as a fun project to practice my frontend and backend development skills. This project uses **Node.js** and **Express.js** to serve static files and render dynamic content using EJS templates.  
 
