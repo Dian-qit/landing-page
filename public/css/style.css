@@ -40,6 +40,7 @@ header button {
     height: 3rem;
     width: 10rem;
     border-radius: 45px;
+    transition: .5s;
 }
 
 header button:hover {
@@ -120,6 +121,7 @@ header button:hover {
     height: 3rem;
     width: 17rem;
     border-radius: 45px;
+    transition: .5s;
 }
 
 .service-container button:hover {
